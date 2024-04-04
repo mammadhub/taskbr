@@ -62,13 +62,14 @@ header h1{
 }
 .ev{
     width: 100%;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 30px;
     gap: 10px;
-    padding: 20px;
 }
 .ev > div {
-    width: 100%;
+    width: 300px;
     height: 157px;
     background-image:url('./house5.jpg') ;
     background-size: 100%;
@@ -87,6 +88,7 @@ header h1{
     width: 100%;
     display: flex;
     gap: 20px;
+    flex-wrap:wrap ;
     justify-content: center;
     align-items: center;
 }
